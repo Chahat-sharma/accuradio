@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(212, 202, 202);
+}
+#main h1{
+    font-family:'Helvetica';
+   font-size: 50px;
+   font-weight: 300;
+  
+}
+h1 span{
+    color: cadetblue;
+    font-weight: 700;
+}
+#left{
+    height: 70%;
+    width: 40%;
+    background-image: linear-gradient(to bottom right, rgb(202, 152, 45), rgb(209, 65, 89));
+    margin: 5vh auto 0 8vh;
+}
+#inner{
+    height: 80%;
+    width: 70%;
+    background-color: cadetblue;
+    position: relative;
+   
+    left: 20%;
+    
+    
+}
+#inner #new1{
+    height: 120px;
+    position: relative;
+    left: -15%;
+    border-radius: 50%;
+    border: 10px solid #ccc;     /* half gray, */
+    border-bottom-color: rgba(255, 206, 101, 0.507);  /* half azure */
+    border-right-color: rgba(255, 206, 101, 0.507);
+    border-top-color: rgba(255, 206, 101, 0.507);
+    border-left-color: rgba(255, 206, 101, 0.507);
+}
+#play{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 206, 101);
+    position: relative;
+   left: -10%;
+    top: -8%;
+}
+#play i{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 20px;
+opacity: 0.7;
+}
+#inner h2{
+    color: rgb(255, 206, 101);
+    font-family: 'Helvetica';
+    margin-left: 30px; 
+   
+}
+#line{
+    height: 300px;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    top: 12%;
+    left: 42%;
+    opacity: .3;
+}
+#inner #new{
+    color: rgb(212, 202, 202);
+    font-family:monospace;
+    font-size: 30px;
+}
+#navi{
+    position: absolute;
+    top: 12%;
+    left: 45%;
+
+}
+#navi a{
+    text-decoration: none;
+    color: rgb(185, 176, 176);
+    margin-right: 3px;
+}
+#navi span a{
+    color: whitesmoke;
+}
+#days{
+   
+ 
+    position: absolute;
+    top: 16%;
+    left: 45%;
+}
+.day{
+    display: flex;
+}
+.day img{
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.day h3{
+    margin-top: 25px;
+    margin-left: 5px;
+    color: whitesmoke;
+}
+.day span{
+    color: rgb(255, 206, 101);
+}
+#side{
+    position: relative;
+    top: -45%;
+    left: 48%;
+    transform: rotate(-90deg);
+    display: flex;
+}
+#side a{
+    text-decoration: none;
+    color: rgb(185, 176, 176);
+ padding: 0px 10px;
+ font-family: monospace;
+ font-size: 20px;
+ 
+}
+#side span a{
+    color: whitesmoke;
+    border-top: 3px solid rgb(255, 206, 101);
+    
+}
+#side #play{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: rgb(185, 176, 176);
+    position: absolute;
+   left: 65%;
+    top: 10%;
+}
+#side #play i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 10px;
+    opacity: 0.7;
+    }
+    #oside{
+        transform: rotate(-90deg);
+        display: flex;
+        position: absolute;
+        top: 48%;
+        left: 33.6%;
+        
+        background-color: rgb(255, 206, 101);
+    }
+    #oside a{
+        text-decoration: none;
+        color: rgb(185, 176, 176);
+     padding: 0px 10px;
+     font-family: monospace;
+     font-size: 20px;
+     
+    }
+    
+    #oside #play{
+    position: absolute;
+    left: 100%;
+    top: 5%;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: rgb(255, 206, 101);
+      
+    }
+    #oside #play i{
+        margin-right: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 10px;
+        opacity: 0.7;
+        }
+    
+   #nav{
+       position: absolute;
+       left: 45%;
+       top: 3%;
+       display: flex;
+     align-items: center;
+   }
+   #nav a{
+       text-decoration: none;
+       margin-right: 10px;
+       color: black;
+       opacity: 0.4;
+    
+      
+   }
+  
+   #nav button{
+       white-space: nowrap;
+       border-color: transparent;
+       background-color: rgb(68, 112, 26);
+       height: 40px;
+       width: 150px;
+       color: whitesmoke;
+       
+   }
+  #nav span a{
+      color: black;
+      opacity: 1;
+  }
+  #right{
+      height: 75%;
+      width: 55%;
+      
+      position: absolute;
+      top: 15%;
+      left: 45%;
+  }
+  #right h5{
+      font-size: 15px;
+      opacity: 0.4;
+  }
+  #right h2{
+      font-size: 30px;
+     margin-top: 15px;
+     margin-bottom: 15px;
+  }
+#right p{
+    font-size: 20px;
+}
+  #right span{
+      color: rgb(91, 138, 44);
+      
+      font-weight: 800;
+  }
+  #like{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  #like i{
+    margin-right: 5px;
+      font-size: 30px;
+      opacity: 0.4;
+  }
+  #icon{
+      display: inline-block;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  #circle{
+    display: flex;
+}
+
+  #round{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      margin-right: 10px;
+   display: flex;
+      border: 10px solid #ccc;     /* half gray, */
+    border-bottom-color: rgb(189, 88, 88); /* half azure */
+    border-right-color: rgb(189, 88, 88);
+    border-top-color: rgb(189, 88, 88);
+    border-left-color:rgba(189, 88, 88, 0.384) ;
+    
+  }
+ #round p{
+ 
+  padding: 20px;
+  
+ }
+ #round span{
+     font-size: 40px;
+     color: black;
+ }
+ #circle h3{
+     position: absolute;
+      margin-top: 90px;
+      padding: 20px;
+     margin-right: 70px;
+     opacity: .6;
+
+ }
+ #images{
+     display: flex;
+ }
+ #images img{
+     height: 80px;
+     width: 80px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     margin-right: 10px;
+ }
+ #one{
+    opacity: 0.4;
+}
+#left i{
+    font-size: 40px;
+    color: whitesmoke;
+}
+#down{
+    position: absolute;
+    top: 93%;
+    left: 5%;
+    height: 40px;
+    width: 300px;
+  
+}
+#down i{
+   opacity: 0.7;
+    margin-right: 40px;
+    font-size: 30px;
+
+}
